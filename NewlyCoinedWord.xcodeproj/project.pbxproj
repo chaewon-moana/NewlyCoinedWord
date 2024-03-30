@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		DE4BD8A12B40135F00147CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8A02B40135F00147CC3 /* AppDelegate.swift */; };
 		DE4BD8A32B40135F00147CC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8A22B40135F00147CC3 /* SceneDelegate.swift */; };
-		DE4BD8A52B40135F00147CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8A42B40135F00147CC3 /* ViewController.swift */; };
+		DE4BD8A52B40135F00147CC3 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8A42B40135F00147CC3 /* QuizViewController.swift */; };
 		DE4BD8A82B40135F00147CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4BD8A62B40135F00147CC3 /* Main.storyboard */; };
 		DE4BD8AA2B40136100147CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4BD8A92B40136100147CC3 /* Assets.xcassets */; };
 		DE4BD8AD2B40136100147CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4BD8AB2B40136100147CC3 /* LaunchScreen.storyboard */; };
+		DE4BD8B52B401C6300147CC3 /* NewQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8B42B401C6300147CC3 /* NewQuizViewController.swift */; };
+		DE4BD8B72B42AA5000147CC3 /* OliveyoungViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8B62B42AA5000147CC3 /* OliveyoungViewController.swift */; };
+		DE4BD8B92B42C1BF00147CC3 /* MagazineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8B82B42C1BF00147CC3 /* MagazineViewController.swift */; };
+		DE4BD8BB2B438E1600147CC3 /* NaverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8BA2B438E1600147CC3 /* NaverViewController.swift */; };
+		DE4BD8BD2B43A3F400147CC3 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4BD8BC2B43A3F400147CC3 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE4BD89D2B40135F00147CC3 /* NewlyCoinedWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewlyCoinedWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4BD8A02B40135F00147CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE4BD8A22B40135F00147CC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE4BD8A42B40135F00147CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4BD8A42B40135F00147CC3 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		DE4BD8A72B40135F00147CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE4BD8A92B40136100147CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4BD8AC2B40136100147CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4BD8AE2B40136100147CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4BD8B42B401C6300147CC3 /* NewQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuizViewController.swift; sourceTree = "<group>"; };
+		DE4BD8B62B42AA5000147CC3 /* OliveyoungViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OliveyoungViewController.swift; sourceTree = "<group>"; };
+		DE4BD8B82B42C1BF00147CC3 /* MagazineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagazineViewController.swift; sourceTree = "<group>"; };
+		DE4BD8BA2B438E1600147CC3 /* NaverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverViewController.swift; sourceTree = "<group>"; };
+		DE4BD8BC2B43A3F400147CC3 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				DE4BD8A02B40135F00147CC3 /* AppDelegate.swift */,
 				DE4BD8A22B40135F00147CC3 /* SceneDelegate.swift */,
-				DE4BD8A42B40135F00147CC3 /* ViewController.swift */,
+				DE4BD8A42B40135F00147CC3 /* QuizViewController.swift */,
 				DE4BD8A62B40135F00147CC3 /* Main.storyboard */,
 				DE4BD8A92B40136100147CC3 /* Assets.xcassets */,
 				DE4BD8AB2B40136100147CC3 /* LaunchScreen.storyboard */,
 				DE4BD8AE2B40136100147CC3 /* Info.plist */,
+				DE4BD8B42B401C6300147CC3 /* NewQuizViewController.swift */,
+				DE4BD8B62B42AA5000147CC3 /* OliveyoungViewController.swift */,
+				DE4BD8B82B42C1BF00147CC3 /* MagazineViewController.swift */,
+				DE4BD8BA2B438E1600147CC3 /* NaverViewController.swift */,
+				DE4BD8BC2B43A3F400147CC3 /* TestViewController.swift */,
 			);
 			path = NewlyCoinedWord;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4BD8A52B40135F00147CC3 /* ViewController.swift in Sources */,
+				DE4BD8BB2B438E1600147CC3 /* NaverViewController.swift in Sources */,
+				DE4BD8B52B401C6300147CC3 /* NewQuizViewController.swift in Sources */,
+				DE4BD8BD2B43A3F400147CC3 /* TestViewController.swift in Sources */,
+				DE4BD8A52B40135F00147CC3 /* QuizViewController.swift in Sources */,
+				DE4BD8B92B42C1BF00147CC3 /* MagazineViewController.swift in Sources */,
 				DE4BD8A12B40135F00147CC3 /* AppDelegate.swift in Sources */,
 				DE4BD8A32B40135F00147CC3 /* SceneDelegate.swift in Sources */,
+				DE4BD8B72B42AA5000147CC3 /* OliveyoungViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
